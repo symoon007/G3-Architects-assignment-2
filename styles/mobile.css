@@ -1,4 +1,8 @@
 @media only screen and (max-width:576px) {
+    /* ------------------
+    header responsiveness
+    --------------------- */
+
     .menubar, .navmenu ul {
         flex-direction: column;
         padding: 0;
@@ -18,6 +22,12 @@
     }
     .navmenu ul li a:hover {
         text-decoration: underline;
+    }
+    .header-details {
+        margin: 25px 10px 0 10px;
+    }
+    .header-details .project-heading {
+        font-size:2.5rem;
     }
     
 }
