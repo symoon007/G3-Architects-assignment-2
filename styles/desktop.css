@@ -36,8 +36,11 @@ button styles
 
 }
 .btn-secondary {
-    height: 200px;
-    width: auto;
+    height: 180px;
+    width: 350px;
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 25px 10px;
 }
 /* --------------
 header styles
@@ -83,6 +86,7 @@ header styles
     color: var(--dark-3);
     font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
 }
 .banner-img {
     display: flex;
@@ -127,4 +131,52 @@ main sections styles
 }
 .feature-info .section-title span:last-child {
     color: var(--btn-bg-color);
+}
+/* ---------- */
+.feature-details-container {
+    display: flex;
+    width: 90%;
+    margin-left: 50px;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.feature-details {
+    width:580px;
+}
+.feature-motto .section-title {
+    color: var(--dark-1);
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-left: 5px solid var(--btn-bg-color);
+    padding-left: 15px;
+    
+}
+.feature-data {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.feature-data .data {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+.feature-banner img {
+    height: 900px;
+    width:600px;
+
+}
+.feature-banner .btn-secondary {
+    position: relative;
+    right: 70px;
+    bottom: 150px;
+}
+.feature-banner .btn-primary small {
+     font-weight: 500;
+    font-size: 30px;
+   margin-top: 0;
+   position: relative;
+   bottom: 30px;
+
 }

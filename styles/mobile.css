@@ -55,5 +55,23 @@
     .feature-info .section-title{
         font-size: 1.5rem;
     }
-    
+    .feature-details-container {
+        flex-direction: column;
+        margin-left: 0;
+        width: 100vw;
+        gap: 0;
+    }
+    .feature-motto .section-title {
+        font-size: 1.5rem;
+    }
+    .feature-motto .description {
+        width: 100vw;
+    }
+    .feature-data .data {
+        width: 100vw;
+
+    }
+    .feature-banner img {
+        width: 100%;
+    }
 }
