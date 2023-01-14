@@ -1,0 +1,23 @@
+@media only screen and (max-width:576px) {
+    .menubar, .navmenu ul {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        padding-top:20px;
+    }
+    .navmenu ul {
+        gap: 5px;
+    }
+    .navmenu ul li {
+        background-color: var(--media-nav-bg-color);
+        padding: 10px 0;
+        width: 100vw;
+        text-align: center;
+        border-radius: 5px;
+        
+    }
+    .navmenu ul li a:hover {
+        text-decoration: underline;
+    }
+    
+}

@@ -1,0 +1,68 @@
+/* all colors */
+:root {
+    --header-bg-color: rgba(255, 144, 14, 0.1);
+    --dark-1: #131313;
+    --dark-2: #424242;
+    --dark-3: #727272;
+    --dark-4: #A1A1A1;
+    --dark-5: #D0D0D0;
+    --dark-6: #E7E7E7;
+    --dark-7: #F3F3F3;
+    --white-color: #FFFFFF;
+    --btn-bg-color: #FF900E;
+    --footer-color: #FFF4E7;
+    --media-nav-bg-color: #F1C274;
+}
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* ----------------------
+button styles
+------------------------- */
+.btn-primary {
+    color: var(--white-color);
+    background-color: var(--btn-color);
+    width: 180px;
+    height: 64px;
+    border-radius:5px;
+    border: 0;
+    margin-top: 32px;
+
+}
+.btn-secondary {
+    height: 200px;
+    width: auto;
+}
+/* --------------
+header styles
+----------------- */
+.header-container {
+    background-color: var(--header-bg-color);
+
+}
+.menubar {
+    display: flex;
+    justify-content:space-between;
+    padding: 60px 250px 100px 230px;
+    align-items: center;
+}
+.project-title .title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--dark-1);
+}
+.navmenu ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    
+
+}
+.navmenu ul li a {
+    text-decoration: none;
+    color: var(--dark-2);
+    margin-right: 0px;
+    font-size: 18px;
+}
