@@ -29,5 +29,31 @@
     .header-details .project-heading {
         font-size:2.5rem;
     }
+    /*--------------------------
+     main sections responsiveness
+     --------------------------- */
+     .feature-container {
+        margin:0;
+     }
+    .feature-content {
+        flex-direction: column;
+        margin-left: 60px;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        justify-content: center;
+        grid-row-gap: 10px;
+    }
+    .feature-images .image img {
+       width: 100%;
+       
+    }
+    .feature-info .section-title{
+        font-size: 1.5rem;
+    }
     
 }

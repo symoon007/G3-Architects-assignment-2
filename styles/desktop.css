@@ -17,6 +17,7 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* ----------------------
 button styles
@@ -78,7 +79,7 @@ header styles
     font-weight: 700;
     font-size: 4rem;
 }
-.header-description {
+.description {
     color: var(--dark-3);
     font-weight: 400;
     font-size: 16px;
@@ -91,5 +92,39 @@ header styles
 }
 .banner-img img{
     width:80vw;
+    margin-bottom: 45px;
    
+}
+/* --------------
+main sections styles 
+-----------------*/
+.feature-container {
+    width: 85%;
+    margin: 0 auto;
+}
+.feature-content {
+    display: flex;
+    gap: 45px;
+}
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.feature-info .section-title {
+    font-size:2.5rem;
+    font-weight: 700;
+}
+.feature-info .section-title span:first-child {
+    color: var(--dark-3);
+    font-weight: 500;
+}
+.feature-info .section-title span:last-child {
+    color: var(--btn-bg-color);
 }
