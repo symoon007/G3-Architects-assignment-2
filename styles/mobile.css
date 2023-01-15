@@ -2,7 +2,7 @@
     /* ------------------
     header responsiveness
     --------------------- */
-
+    
     .menubar, .navmenu ul {
         flex-direction: column;
         padding: 0;
@@ -65,7 +65,6 @@
     .feature-details {
         width: 100%;
     }
-    
     .feature-motto .section-title {
         font-size: 1.5rem;
     }
@@ -78,6 +77,14 @@
     }
     .feature-banner img {
         width: 100vw;
+    }
+
+    .btn-secondary {
+        position: relative;
+        left: 30px;
+        top: 0px;
+        width: 250px;
+        height:100%
     }
     
 }
