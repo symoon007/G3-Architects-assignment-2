@@ -60,7 +60,12 @@
         margin-left: 0;
         width: 100vw;
         gap: 0;
+       
     }
+    .feature-details {
+        width: 100%;
+    }
+    
     .feature-motto .section-title {
         font-size: 1.5rem;
     }
@@ -72,6 +77,7 @@
 
     }
     .feature-banner img {
-        width: 100%;
+        width: 100vw;
     }
+    
 }

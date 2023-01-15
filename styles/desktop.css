@@ -142,7 +142,8 @@ main sections styles
     margin-top: 50px;
 }
 .feature-details {
-    width:580px;
+    width: 100%;
+    max-width:580px;
 }
 .feature-motto .section-title {
     color: var(--dark-1);
