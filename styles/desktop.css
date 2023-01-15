@@ -181,3 +181,29 @@ main sections styles
    bottom: 30px;
 
 }
+/* some facts styles */
+.some-facts-container {
+    margin-left: 100px; 
+}
+.some-facts-info {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.some-facts-data {
+    text-align: center;
+   
+    border: 1px solid var(--btn-bg-color);
+    border-radius: 5px;
+    height: 120px;
+    width: 135px;
+    padding: 10px 0;
+    transition: width 1s, height 1s, background-color 2s, transform 1s;
+}
+.some-facts-data:hover {
+    background-color: rgb(127, 231, 223);
+    width: 150px;
+    height: 132px;
+   
+    border: 2px solid rgb(6, 173, 250);
+}
