@@ -116,6 +116,12 @@
   /* --------------
     footer styles
     ----------------- */
+  /* .footer-contents,
+  .footer-login,
+  .authority {
+    display: none;
+  } */
+
   .footer-contents {
     width: 100vw;
     height: auto;
