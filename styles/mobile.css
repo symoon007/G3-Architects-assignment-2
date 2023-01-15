@@ -1,107 +1,136 @@
-@media only screen and (max-width:576px) {
-    /* ------------------
+@media only screen and (max-width: 576px) {
+  /* ------------------
     header responsiveness
     --------------------- */
-    
-    .menubar, .navmenu ul {
-        flex-direction: column;
-        padding: 0;
-        align-items: center;
-        padding-top:20px;
-    }
-    .navmenu ul {
-        gap: 5px;
-    }
-    .navmenu ul li {
-        background-color: var(--media-nav-bg-color);
-        padding: 10px 0;
-        width: 100vw;
-        text-align: center;
-        border-radius: 5px;
-        
-    }
-    .navmenu ul li a:hover {
-        text-decoration: underline;
-    }
-    .header-details {
-        margin: 25px 10px 0 10px;
-    }
-    .header-details .project-heading {
-        font-size:2.5rem;
-    }
-    /*--------------------------
+
+  .menubar,
+  .navmenu ul {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .navmenu ul {
+    gap: 5px;
+  }
+  .navmenu ul li {
+    background-color: var(--media-nav-bg-color);
+    padding: 10px 0;
+    width: 100vw;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .navmenu ul li a:hover {
+    text-decoration: underline;
+  }
+  .header-details {
+    margin: 25px 10px 0 10px;
+  }
+  .header-details .project-heading {
+    font-size: 2.5rem;
+  }
+  /*--------------------------
      main sections responsiveness
      --------------------------- */
-     .feature-container {
-        margin:0;
-     }
-    .feature-content {
-        flex-direction: column;
-        margin-left: 60px;
-        justify-content: center;
-        gap: 10px;
-        
-    }
-    .feature-images {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 0px;
-        justify-content: center;
-        grid-row-gap: 10px;
-    }
-    .feature-images .image img {
-       width: 100%;
-       
-    }
-    .feature-info .section-title{
-        font-size: 1.5rem;
-    }
-    .feature-details-container {
-        flex-direction: column;
-        margin-left: 0;
-        width: 100vw;
-        gap: 0;
-       
-    }
-    .feature-details {
-        width: 100%;
-    }
-    .feature-motto .section-title {
-        font-size: 1.5rem;
-      
-    }
-    .feature-motto .description {
-        width: 100vw;
-        
-    }
-    .feature-data .data {
-        width: 100vw;
+  .feature-container {
+    margin: 0;
+  }
+  .feature-content {
+    flex-direction: column;
+    margin-left: 60px;
+    justify-content: center;
+    gap: 10px;
+  }
+  .feature-images {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+    justify-content: center;
+    grid-row-gap: 10px;
+  }
+  .feature-images .image img {
+    width: 100%;
+  }
+  .feature-info .section-title {
+    font-size: 1.5rem;
+  }
+  .feature-details-container {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100vw;
+    gap: 0;
+  }
+  .feature-details {
+    width: 100%;
+  }
+  .feature-motto .section-title {
+    font-size: 1.5rem;
+  }
+  .feature-motto .description {
+    width: 100vw;
+  }
+  .feature-data .data {
+    width: 100vw;
+  }
+  .feature-banner img {
+    width: 100vw;
+  }
 
-    }
-    .feature-banner img {
-        width: 100vw;
-    }
-
-    .btn-secondary {
-        position: relative;
-        left: 30px;
-        top: 0px;
-        width: 250px;
-        height:100%
-    }
-    /* --------
+  .btn-secondary {
+    position: relative;
+    left: 30px;
+    top: 0px;
+    width: 250px;
+    height: 100%;
+  }
+  /* --------
     some facts RWD
     ---------- */
-    .some-facts-container {
-        width: 100vw;
-        margin-left: 0;
-        margin-top: 100px ;
-    }
-    .some-facts-details {
-        text-align: center;
-    }
-    .some-facts-info {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
+  .some-facts-container {
+    width: 100vw;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  .some-facts-details {
+    text-align: center;
+  }
+  .some-facts-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .sponsors-container {
+    width: 100vw;
+  }
+  .sponsors-details {
+  }
+  .sponsors-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .sponsors img {
+    width: 100%;
+    object-fit: fill;
+  }
+  /* --------------
+    footer styles
+    ----------------- */
+  .footer-contents {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+  }
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  .footer-contents p {
+    width: 100%;
+  }
+  .footer-contents .social-sites ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer-login form input {
+  }
 }
